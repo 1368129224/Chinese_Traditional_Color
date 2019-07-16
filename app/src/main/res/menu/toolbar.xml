@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="24dp" >
+    <item
+        android:id="@+id/searchView"
+        android:icon="@drawable/ic_serach"
+        android:orderInCategory="1"
+        android:title="搜索"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView"
+        />
+    <item
+        android:id="@+id/like"
+        android:icon="@drawable/ic_heart"
+        android:orderInCategory="2"
+        android:title="我的收藏"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/ic_about"
+        android:orderInCategory="3"
+        app:showAsAction="ifRoom"
+        android:title="关于" />
+</menu>
