@@ -1,7 +1,11 @@
 # Chinese_Traditional_Color
 中国传统色，一个查看颜色值的简单APP。
 
-安卓开发课程期末项目。
+颜色来源：http://zhongguose.com/
+
+字体：汉仪瘦金
+
+爬虫数据保存至：[app/src/main/res/raw/colors.txt](https://github.com/1368129224/Chinese_Traditional_Color/blob/master/app/src/main/res/raw/colors.txt)
 
 系统要求：安卓8以上。
 
